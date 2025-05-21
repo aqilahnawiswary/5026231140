@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Tutorial Laravel - www.malasngoding.com</title>
+	<title>PR Pertemuan 11</title>
 </head>
 <body>
 
-	<h3>www.malasngoding.com</h3>
-	<p>Seri Tutorial Laravel Lengkap Dari Dasar</p>
-	<p>Ini adalah view blog. ada di route blog.</p>
+    <h3>Daftar Isi</h3>
+	<p>Pertemuan 1-ETS</p>
+
 <br>
 <a href="satu" >myfirstpage</a><br>
 <a href="dua" >mysecondpage</a><br>

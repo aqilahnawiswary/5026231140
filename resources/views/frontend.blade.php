@@ -9,17 +9,17 @@
 	<p>Pertemuan 1-ETS</p>
 
 <br>
-<a href="satu" >myfirstpage</a><br>
-<a href="dua" >mysecondpage</a><br>
-<a href="tiga" >mythirdpage</a><br>
-<a href="bootstrap1" >bootstrap1</a><br>
-<a href="js1" >js1</a><br>
-<a href="latihanjs" >latihanjavascript</a><br>
-<a href="tugaslayout" >mobilelayout1</a><br>
-<a href="tugaslinktree" >olip</a><br>
-<a href="templatebootstrap4" >templateb4</a><br>
-<a href="validasi1" >validasi1</a><br>
-<a href="templateets" >template</a><br>
+<a href="myfirstpage" >pertemuan 3 (1)</a><br>
+<a href="bootstrap1" >pertemuan 3 (2)</a><br>
+<a href="templateb4" >pertemuan 3 (3)</a><br>
+<a href="mysecondpage" >pertemuan 4 (1)</a><br>
+<a href="mythirdpage" >pertemuan 4 (2)</a><br>
+<a href="mobilelayout1" >pertemuan 4 (3)</a><br>
+<a href="olip" >tugaslinktree</a><br>
+<a href="js1" >pertemuan 7 (1)</a><br>
+<a href="latihanjs" >pertemuan 7 (2)</a><br>
+<a href="validasi1" >pertemuan 7 (3)</a><br>
+<a href="template" >templateets</a><br>
 <a href="index" >index</a><br>
 </body>
 </html>

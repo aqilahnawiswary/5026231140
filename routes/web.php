@@ -20,20 +20,32 @@ Route::get('frontend', function () {
 	return view('frontend');
 });
 
-Route::get('satu', function () {
+Route::get('myfirstpage', function () {
 	return view('myfirstpage');
-});
-
-Route::get('dua', function () {
-	return view('mysecondpage');
-});
-
-Route::get('tiga', function () {
-	return view('mythirdpage');
 });
 
 Route::get('bootstrap1', function () {
 	return view('bootstrap1');
+});
+
+Route::get('templateb4', function () {
+	return view('templateb4');
+});
+
+Route::get('mysecondpage', function () {
+	return view('mysecondpage');
+});
+
+Route::get('mythirdpage', function () {
+	return view('mythirdpage');
+});
+
+Route::get('mobilelayout1', function () {
+	return view('mobilelayout1');
+});
+
+Route::get('olip', function () {
+	return view('olip');
 });
 
 Route::get('js1', function () {
@@ -44,23 +56,11 @@ Route::get('latihanjs', function () {
 	return view('latihanjavascript');
 });
 
-Route::get('tugaslayout', function () {
-	return view('mobilelayout1');
-});
-
-Route::get('tugaslinktree', function () {
-	return view('olip');
-});
-
-Route::get('templatebootstrap4', function () {
-	return view('templateb4');
-});
-
 Route::get('validasi1', function () {
 	return view('validasi1');
 });
 
-Route::get('templateets', function () {
+Route::get('template', function () {
 	return view('template');
 });
 

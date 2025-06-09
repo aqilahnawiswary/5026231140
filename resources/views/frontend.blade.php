@@ -20,6 +20,6 @@
 <a href="latihanjs" >pertemuan 7 (2)</a><br>
 <a href="validasi1" >pertemuan 7 (3)</a><br>
 <a href="template" >templateets</a><br>
-<a href="index" >index</a><br>
+<a href="index" >index_ets</a><br>
 </body>
 </html>

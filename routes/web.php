@@ -5,6 +5,7 @@ use App\Http\Controllers\DosenController;
 use App\Http\Controllers\PegawaiController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\PegawaiDBController;
+use App\Http\Controllers\LaptopDBController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -79,7 +80,7 @@ Route::get('template', function () {
 });
 
 Route::get('index', function () {
-	return view('index');
+	return view('index_ets');
 });
 
 //route pegawaiDB
@@ -91,3 +92,11 @@ Route::post('/pegawai/update',[PegawaiDBController::class, 'update']);
 Route::get('/pegawai/hapus/{id}', [PegawaiDBController::class, 'hapus']);
 
 Route::get('/pegawai/cari', [PegawaiDBController::class, 'cari']);
+
+Route::get('/laptop', [LaptopDBController::class, 'index']);
+Route::get('/laptop/tambah', [LaptopDBController::class, 'tambah']);
+Route::post('/laptop/store', [LaptopDBController::class, 'store']);
+Route::get('/laptop/edit/{id}', [LaptopDBController::class, 'edit']);
+Route::post('/laptop/update', [LaptopDBController::class, 'update']);
+Route::get('/laptop/hapus/{id}', [LaptopDBController::class, 'hapus']);
+Route::get('/laptop/cari', [LaptopDBController::class, 'cari']);

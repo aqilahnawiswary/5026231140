@@ -1,7 +1,7 @@
 @extends('templateBootstrap')
 
 @section('content')
-    <h2>www.malasngoding.com</h2>
+
     <h3>Data Pegawai</h3>
 
     <a href="/pegawai/tambah" class="btn btn-primary mb-3">+ Tambah Pegawai Baru</a>

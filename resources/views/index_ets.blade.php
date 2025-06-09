@@ -17,23 +17,23 @@
         <link href="css/styles.css" rel="stylesheet" />
         <title>Pendaftaran ILP</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-    
+
         <!-- SweetAlert2 -->
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    
+
         <!-- jQuery & Bootstrap JS -->
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
-    
+
         <script>
             function validasi() {
                 var nama = document.getElementById("nama").value.trim();
                 var hp = document.getElementById("hp").value.trim();
-    
+
                 if (nama.length == 0) {
                     Swal.fire({
                         title: "Kesalahan Input",
@@ -42,7 +42,7 @@
                     });
                     return false;
                 }
-    
+
                 if (hp.length == 0) {
                     Swal.fire({
                         title:"Kesalahan Input",
@@ -51,7 +51,7 @@
                     });
                     return false;
                 }
-    
+
                 if (isNaN(hp)) {
                     Swal.fire({
                         title:"Kesalahan Input",
@@ -60,7 +60,7 @@
                     });
                     return false;
                 }
-    
+
                 return true;
             }
         </script>
@@ -198,7 +198,7 @@
                         </div>
                     </div>
                 </section>
-            
+
                <!-- konten 5 Contact Section-->
                <section class="page-section bg-primary text-white mb-0" id="contact">
                 <div class="container">
@@ -213,17 +213,17 @@
                     <!-- Contact Section Form-->
                     <div class="container mt-5">
                         <form action="https://www.google.com/chrome/" method="get" onsubmit="return validasi();">
-                    
+
                             <div class="form-group">
                                 <label for="nama">Nama:</label>
                                 <input type="text" name="nama" id="nama" class="form-control" placeholder="Aurel Salsabila">
                             </div>
-                    
+
                             <div class="form-group">
                                 <label for="hp">Nomor HP:</label>
                                 <input type="text" name="hp" id="hp" class="form-control" placeholder="081234567890">
                             </div>
-                    
+
                             <input type="submit" class="btn btn-success" value="Daftar">
                         </form>
                     </div>

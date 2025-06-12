@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>5026231140  : Aqilah Ummu Al Nawiswary</title>
+    <title>5026231140: Aqilah Ummu Al Nawiswary</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
@@ -21,7 +21,7 @@
 
 <body>
     <div class="jumbotron text-center mx-auto">
-        <h1>5026231140  : Aqilah Ummu Al Nawiswary</h1>
+        <h1>5026231140: Aqilah Ummu Al Nawiswary</h1>
     </div>
 
     <nav class="navbar navbar-expand-sm bg-light">
@@ -39,7 +39,7 @@
                 <a class="nav-link" href="#">EAS</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Latihan 1</a>
+                <a class="nav-link" href="/page">Latihan 1</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Latihan 2</a>

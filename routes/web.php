@@ -6,6 +6,7 @@ use App\Http\Controllers\PegawaiController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\PegawaiDBController;
 use App\Http\Controllers\LaptopDBController;
+use App\Http\Controllers\PageCounterDBController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -100,3 +101,5 @@ Route::get('/laptop/edit/{id}', [LaptopDBController::class, 'edit']);
 Route::post('/laptop/update', [LaptopDBController::class, 'update']);
 Route::get('/laptop/hapus/{id}', [LaptopDBController::class, 'hapus']);
 Route::get('/laptop/cari', [LaptopDBController::class, 'cari']);
+
+Route::get('/page', [PageCounterDBController::class, 'index']);

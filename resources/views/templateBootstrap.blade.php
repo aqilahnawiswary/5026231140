@@ -24,7 +24,7 @@
         <h1>5026231140  : Aqilah Ummu Al Nawiswary</h1>
     </div>
 
-    {{-- <nav class="navbar navbar-expand-sm bg-light">
+    <nav class="navbar navbar-expand-sm bg-light">
         <ul class="navbar-nav">
             <li class="nav-item">
                 <a class="nav-link" href="#">All Front End</a>
@@ -33,7 +33,7 @@
                 <a class="nav-link" href="/pegawai">Pegawai</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Tugas CRUD</a>
+                <a class="nav-link" href="/laptop">Tugas CRUD</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">EAS</a>
@@ -48,7 +48,7 @@
                 <a class="nav-link" href="#">Latihan 3</a>
             </li>
         </ul>
-    </nav> --}}
+    </nav>
     <br>
     <div class="container">
         @yield('content')

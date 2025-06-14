@@ -7,6 +7,7 @@ use App\Http\Controllers\BlogController;
 use App\Http\Controllers\PegawaiDBController;
 use App\Http\Controllers\LaptopDBController;
 use App\Http\Controllers\PageCounterDBController;
+use App\Http\Controllers\KaryawanDBController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -103,3 +104,9 @@ Route::get('/laptop/hapus/{id}', [LaptopDBController::class, 'hapus']);
 Route::get('/laptop/cari', [LaptopDBController::class, 'cari']);
 
 Route::get('/page', [PageCounterDBController::class, 'index']);
+
+Route::get('/karyawan', [KaryawanDBController::class, 'index_karyawan']);
+Route::get('/karyawan/tambahkaryawan', [KaryawanDBController::class, 'tambah_karyawan']);
+Route::post('/karyawan/storekaryawan', [KaryawanDBController::class, 'storekaryawan']); //jika form dikirim, route ini akan dijalankan
+Route::get('/karyawan/hapuskaryawan/{id}', [KaryawanDBController::class, 'hapuskaryawan']);
+Route::get('/karyawan/carikaryawan', [KaryawanDBController::class, 'carikaryawan']);

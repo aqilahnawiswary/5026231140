@@ -8,6 +8,11 @@ use App\Http\Controllers\PegawaiDBController;
 use App\Http\Controllers\LaptopDBController;
 use App\Http\Controllers\PageCounterDBController;
 use App\Http\Controllers\KaryawanDBController;
+use App\Http\Controllers\KeranjangDBController;
+use App\Http\Controllers\ChatController;
+use App\Http\Controllers\KategoriController;
+use App\Http\Controllers\MykaryawanController;
+//sama dengan import java.io.*
 
 Route::get('/', function () {
     return view('welcome');
@@ -110,3 +115,21 @@ Route::get('/karyawan/tambahkaryawan', [KaryawanDBController::class, 'tambah_kar
 Route::post('/karyawan/storekaryawan', [KaryawanDBController::class, 'storekaryawan']); //jika form dikirim, route ini akan dijalankan
 Route::get('/karyawan/hapuskaryawan/{id}', [KaryawanDBController::class, 'hapuskaryawan']);
 Route::get('/karyawan/carikaryawan', [KaryawanDBController::class, 'carikaryawan']);
+Route::get('/karyawan/view/{id}', [KaryawanDBController::class, 'view']);
+
+Route::get('/belanja', [KeranjangDBController:: class, 'index']);
+Route::get('/belanja/beli', [KeranjangDBController:: class, 'beli']);
+//store dan data
+Route::post('/belanja/store', [KeranjangDBController:: class, 'store']);
+Route::get('/belanja/batal/{ID}', [KeranjangDBController:: class, 'batal']);
+
+Route::get('/chat', [ChatController:: class, 'index']);
+
+Route::get('/kategori', [KategoriController::class, 'index']);
+Route::post('/kategori/kirim', [KategoriController::class, 'kirim']);
+
+Route::get('/eas', [MykaryawanController::class, 'index']); // tampilkan semua data
+Route::get('/eas/view/{kodepegawai}', [MykaryawanController::class, 'view']); // lihat detail 1 data
+Route::get('/eas/edit/{kodepegawai}', [MykaryawanController::class, 'edit']); // tampilkan form edit
+Route::post('/eas/update/{kodepegawai}', [MykaryawanController::class, 'update']); // simpan hasil edit
+Route::post('/eas/store/{kodepegawai}', [MykaryawanController::class, 'store']);
